@@ -11,7 +11,7 @@ It calls various other functions to progress through the game's story.
 def main():
     introduction()
     start_game()
-    start_stroll()
+    start_stroll(username)
     forest_tail()
     city_tail()
     home()
@@ -55,12 +55,14 @@ If the username is valid, it proceeds with the game.
 """
 def start_game():
     username = input("Enter Your Name:")
-    if username.isalpha():
-        print("______________________________\n")
-        print(f"Welcome {username}, you are about to enter on a new adventure! I wish you all the luck!.... You probobly need it")
-        start_stroll(username)
-    else:
-        print("\nIm sorry, you need to use only letters in your username, try again")
+    while True:
+        if username.isalpha():
+            print("______________________________\n")
+            print(f"Welcome {username}, you are about to enter on a new adventure! I wish you all the luck!.... You probobly need it")
+            start_stroll(username)
+        else:
+            print("\nIm sorry, you need to use only letters in your username, try again")
+            start_game()
         
 """
 The start_stroll(username) function describes the beginning of the game when the player decides to take a stroll.
@@ -128,21 +130,29 @@ def hide_boy(username):
     print("You shake the persons hand and say")
     print(f"Hello my names is {username} what´s yours?\n")
     person_c_g = input("Is this a women or man? ")
-    person_c = input (f"What is the {person_c_g}s name? ")
+    person_c = input(f"What is this {person_c_g}´s name?")
     while True:
         if person_c_g == "man":
             pronoun = "he"
             print(f"\nWell hello {person_c} my name is {username}")
             print("Yeah these guys was scary but i wasn´t afraid..")
             coffe_tail(person_c, person_c_g, username, pronoun)
+            
         elif person_c_g == "women":
-            print(f"\nHello {person_c} my name is {username}")
-            print("Yeah these guys was scary but i had to save the boy!")
             pronoun = "she"
+            print(f"\nWell hello {person_c} my name is {username}")
+            print("Yeah these guys was scary but i wasn´t afraid..")
             coffe_tail(person_c, person_c_g, username, pronoun)
+            
+            
         else:
             print("Im sorry make a choice between man or women.")
             hide_boy(username)
+
+
+   
+    
+    
 
 """
 The coffe_tail() function continues the story from the coffee shop, where the player can choose to follow person_c or not.
@@ -245,7 +255,7 @@ def inside_cabin(person_c, username, pronoun):
 The final_act() function presents the player with choices on how to deal with the situation inside the cabin.
 """
 def final_act(person_c, username, pronoun):
-    print(" DOOK DOOK DOOK")
+    print("\nDOOK DOOK DOOK")
     print(f"{person_c} He is here, go and hide!!")
     print("Now you have three choices!")
     print("1. Hide in the wardrobe")
@@ -298,7 +308,7 @@ final_aces(): This function represents the final part of the game where the play
 The player is given three choices: hiding in the wardrobe, running for a kitchen knife, or hiding under the bed. 
 Depending on their choice, different outcomes occur, leading to either death or survival.
 """
-def final_aces():
+def final_act2(person_c, username, pronoun):
     print(" DOOK DOOK DOOK")
     print(f"{person_c}: He is here, go and hide!!")
     print("Now you have three choices!")
@@ -347,12 +357,12 @@ If the player chooses to play again, it calls the start_game() function (which i
 """
 def congrat(username):
     print(f"Congrats! {username} you survived the stroll!")
-    user_choice=input("Would you like to play again?")
+    user_choice=input("Would you like to play again? y/n:")
     while True:
         if user_choice=="y":
             start_game()
         elif user_choice=="n":
-            quit
+            quit()
 """
 forest_tail(): This function sets up the initial scenario where the player is on a stroll in the woods. 
 They hear a child crying and are given the choice to find the child or ignore the sound.
@@ -524,8 +534,7 @@ def home():
 
 
 
-main()
-        
+main()        
 
 
 
