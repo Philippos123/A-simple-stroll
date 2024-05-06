@@ -24,15 +24,9 @@ There is alot of events when the player picks the exciting path, the player will
 
 ## Depoloyment
 
-I deplyod this project to Heroku 
+I deployd this project to Heroku 
 
-1. First created an account if you dont have one. 
-2. Go to dashboard en click new app.
-3. Give an app name and choose the region you live in. (EU or US)
-4. Then i went to setting and added the PORT & framework Python and Node.js
-5. Link the Heroku upp to your github repositrie for that code.  
-6. Then i clicked deploy branch wich download all the framework and takes the code from my github.
-7. Waited for the frameworks to download and the clicked open app 
+
 
 Here is the link to the game <https://a-simple-stroll-c4fc7eb42776.herokuapp.com/>
 

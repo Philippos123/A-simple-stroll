@@ -57,7 +57,7 @@ def start_game():
     while True:
         if username.isalpha():
             print("______________________________\n")
-            print(f"Welcome {username}, you are about to enter on a new adventure! I wish you all the luck!.... You probobly need it")
+            print(f"Welcome {username}, you are about to enter on a new adventure! I wish you all the luck!.... You probobly need it\n")
             start_stroll(username)
             break
         else:
