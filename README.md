@@ -19,13 +19,13 @@ A simpel stroll is a game where you as a player controll the storyline. You cont
 
 
 ### Functions
-- Input
+### Input
 The player will be able to input there characters name, wich will follow throught out the entire story. 
 The player will also be able to put in gender and name on characters they meet when they stroll. 
 Depending on if it is a women the player meet the entire story will give her the pronoun of she, and is it a man it will be he.
-- Events
+### Events
 There is alot of events when the player picks the exciting path, the player will almways have a choice to go home. Beacuse that´s reality. Who would like to go for a stroll when you have no option on turning back for like 5 hours?? 
-- Variables 
+### Variables 
 The people the player's meet isn't static inside the game. Wich makes it important to past the variables further through the game. For exampel the variable "person_c_g" wich will change a person they meet in the game from women to man depending on what the player choose to pick in the early stages of the game and there prounances ofcourse wich lays in the "pronoun" variable. 
 
 ## Depoloyment
