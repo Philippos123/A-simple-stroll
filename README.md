@@ -26,8 +26,25 @@ There is alot of events when the player picks the exciting path, the player will
 
 I deployd this project to Heroku 
 
+1. I logged in to Heroku
+2. Created new app
+3. Named my app and picked my region 
+4. Then i linked the heroku app to my repo in github and loaded it. 
 
 
+## Bugs 
+ I found a couple bugs where the player would put in 3 when there only was 1 or 2 as an option wich would create an infinite loop. 
+ The other bug i found was when i created else statments but didn't pass in the variable from the function wich made it crash.
+
+## Images 
+
+On this picture the user have the power to create it's own story by controlling who them will meet. Is it a a girl or man? Friend or foe? 
+![Simpel_stroll](images/simpel_stroll.JPG)
+
+Here is another picture of the hole application. I tried to structure the text with _________ lines and \n
+![Another_picture_of_simpel_stroll](images/Skärmbild%20(97).png)
+
+## To the Game 
 Here is the link to the game <https://a-simple-stroll-c4fc7eb42776.herokuapp.com/>
 
 
