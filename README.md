@@ -18,7 +18,7 @@ The player will be able to pick 1,2 or 3 and y/n depening on the situation.
 A simpel stroll is a game where you as a player controll the storyline. You controll the choices you make and the people you meet along the way. The game is nerve tickling wich makes it the perfect "late before bed game" when you sit alone a saturday night infront of your computer. 
 
 
-### Functions
+## Functions
 ### Input
 The player will be able to input there characters name, wich will follow throught out the entire story. 
 The player will also be able to put in gender and name on characters they meet when they stroll. 
