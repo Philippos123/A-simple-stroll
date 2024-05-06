@@ -1,4 +1,3 @@
-username = ""
 person_c = ""
 person_c_g = ""
 pronoun = ""
@@ -60,6 +59,7 @@ def start_game():
             print("______________________________\n")
             print(f"Welcome {username}, you are about to enter on a new adventure! I wish you all the luck!.... You probobly need it")
             start_stroll(username)
+            break
         else:
             print("\nIm sorry, you need to use only letters in your username, try again")
             start_game()
@@ -112,6 +112,10 @@ def city_tail(username):
         elif user_choice =="3":
             print("Pff coward....\n")
             home()
+
+        else:
+            print("You can only press 1,2,3")
+            city_tail(username)
 """
 The hide_boy(username) function is called if the player chooses to hide the boy. 
 It continues the story and introduces a character named person_c who interacts with the player.
@@ -186,7 +190,7 @@ def coffeplace(person_c, person_c_g, username, pronoun):
 The cabin_tail() function is called when the player reaches a cabin and encounters a dangerous situation.
 """
 def cabin_tail(person_c, username, pronoun):
-    print(f"\n{pronoun} she points at a small old red cabin and say. 'We are here! come on {username}'")
+    print(f"\n{pronoun} points at a small old red cabin and say. 'We are here! come on {username}'")
     print(f"You feel a bit sceptical to this, beacue you heard of a young girl and an middle age {person_c_g} disapeard arond here somwehere")
     print("All of a sudden, you notice someone standing behind the trees in the woods close by the cabin. ")
     print(f" {person_c} pushes you behind a wall and whispers in your ear. 'Listen to me or die inside this cabin...'")
@@ -205,7 +209,7 @@ def cabin_tail(person_c, username, pronoun):
             inside_cabin(person_c, username, pronoun)
         else:
             print("You need to pick 1 or 2")
-            cabin_tail()
+            cabin_tail(person_c, username, pronoun)
 
 """
 The inside_cabin() function continues the story inside the cabin, revealing more details about the situation.
@@ -248,6 +252,9 @@ def inside_cabin(person_c, username, pronoun):
             print("You sit in your couch silent and you hear someone say")
             print(f"Hello {username} it´s Mr.Jansson, I am coming for you....\n")
             death()
+        else:
+            print("Im sorry you need to answer with 1,2 or 3 to keep playing")
+            inside_cabin('person_c', 'username', 'pronoun')
 
 
 
@@ -287,6 +294,10 @@ def final_act(person_c, username, pronoun):
             print("You wake up strapped to a bloody kithen table ")
             print(f"Mr.Jansson comes up close to your face and says 'Sleep well {username}'\n")
             death()
+        else:
+            print("Im sorry you need to answer with 1,2 or 3 to keep playing")
+            final_act(person_c, username, pronoun)
+
 
 """
 The final_act_wardrobe function tell the player the story if they choose the wardrobe to hide, and win the game
@@ -348,6 +359,9 @@ def final_act2(person_c, username, pronoun):
             print("You wake up strapped to a bloody kithen table ")
             print(f"Mr.Jansson comes up close to your face and says 'Sleep well {username} ' ")
             death()
+        else:
+            print("Im sorry you need to answer with 1,2 or 3 to keep playing")
+            final_act2(person_c, username, pronoun)
 
 
 """
@@ -500,6 +514,10 @@ def gunfight(username):
             print("You open your dorr and enters your safe heaven. Calls the cops and tell them about everything")
             print("And the police officer answers: Did you kill my familly?\n")
             congrat(username)
+        else:
+            print("Im sorry you need to answer with y/n keep playing")
+            gunfight()
+
 """
 home_safe(username): This function is called if the player decides to run away from Molly. 
 It describes the player's return home and the discovery of disturbing news about Mr. Jansson, the neighbor.
