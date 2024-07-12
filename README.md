@@ -3,80 +3,77 @@
 ![AMIRESPONSIV](images/jag%20responsiv.png)
 
 ## What is a simple stroll?
-A Simple stroll is a game for both females and male with tha age between 16-22 years. The goal with game is to give the player an exciting and goosbump feeling. It´s a horror game where you are going for a simple stroll and things turn south very fast. There is a old cabin by the woods with a child crying. What could go wrong?
+A Simple Stroll is a game for both females and males aged between 16-22 years. The goal of the game is to give the player an exciting and goosebump-inducing experience. It’s a horror game where you go for a simple stroll, and things turn south very quickly. There is an old cabin by the woods with a child crying. What could go wrong?
 
 
 ## How do you play? 
-You will follow the story of "A Simple Stroll" where your come to a point when you need to make a decision. Depening on your answer will you have a simple stroll or being hunted by a cannibal? 
+You will follow the story of "A Simple Stroll" and reach points where you need to make decisions. Depending on your answers, you will either have a simple stroll or be hunted by a cannibal.
 
-The player will be able to give the characters they meet in the story names and gender.
-There will be between 2-3 diffrent paths for the player. 
+The player will be able to give names and genders to the characters they meet in the story. There will be 2-3 different paths for the player to choose from.
 
-The player will be able to pick 1,2 or 3 and y/n depening on the situation.
+The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 
 
 # Project goal
 
 ### For the user
 - To play a puzzle game where the goal is to survive the stroll.
-- To understand the instructions and understand how to play. 
+- To understand the instructions and know how to play.
 
 ### For the admin
-- To provide the players with instructions. 
-- To make a game where there are no errors.
+- To provide players with clear instructions.
+- To create a game without errors.
 
 
 ## Why would you want to play this game? 
 
-A simpel stroll is a game where you as a player controll the storyline. You controll the choices you make and the people you meet along the way. The game is nerve tickling wich makes it the perfect "late before bed game" when you sit alone a saturday night infront of your computer. 
+A Simple Stroll is a game where you, as the player, control the storyline. You control the choices you make and the people you meet along the way. The game is nerve-wracking, making it the perfect "late-night game" when you are alone on a Saturday night in front of your computer.
 
 
-## Functions
+# Functions
 ### Input
-The player will be able to input there characters name, wich will follow throught out the entire story. 
-The player will also be able to put in gender and name on characters they meet when they stroll. 
-Depending on if it is a women the player meet the entire story will give her the pronoun of she, and is it a man it will be he.
+The player will be able to input their character's name, which will follow throughout the entire story. The player will also be able to input the gender and name of characters they meet during the stroll. If the player meets a woman, the story will use the pronoun "she," and if it's a man, it will use "he."
 
 ## Attributes 
-- Person_c stands for the persons name 
-- Person_c_g stands for gender
-- Pronun stands for pronunce 
-- Username stands for the player´s name
+- Person_c stands for the person's name.
+- Person_c_g stands for gender.
+- Pronun stands for pronouns. 
+- Username stands for the player´s name.
 
 ### Events
-There is alot of events when the player picks the exciting path, the player will almways have a choice to go home. Beacuse that´s reality. Who would like to go for a stroll when you have no option on turning back for like 5 hours?? 
+There are a lot of events when the player picks the exciting path. The player will always have the option to go home because that’s reality. Who would like to go for a stroll with no option to turn back for like 5 hours?
 ### Variables 
-The people the player's meet isn't static inside the game. Wich makes it important to past the variables further through the game. For exampel the variable "person_c_g" wich will change a person they meet in the game from women to man depending on what the player choose to pick in the early stages of the game and there prounances ofcourse wich lays in the "pronoun" variable. 
+The people the player meets aren’t static in the game. This makes it important to pass variables further through the game. For example, the variable person_c_g will change a person the player meets from a woman to a man depending on the player's early choices, and their pronouns, of course, are stored in the pronoun variable.
 
 # Testing 
 
 ## PEP8 
-A simpel stroll passed the PEP8 with no errors, look at img belov. 
-The game had alot of PEP8 errors wich is handeld now. 
+A Simple Stroll passed the PEP8 checks with no errors, as shown in the image below. The game initially had a lot of PEP8 errors, which have been resolved now. 
 ![PEP8](images/PEP8.png)
 
 ## Manual testing 
 ### Start Game 
-1. Start the game by enter your name: I used an Isalpah function so the user is only able to use letters. If you use a number the system will make a loop back.
+1. Start the game by entering your name. I used an isalpha function so the user can only use letters. If you use a number, the system will loop back.
 ### Choose path 
-1. The user is able to pick 1 or 2 depening on if the user want an city stroll or forest stroll
-2. IF the user input A or 3 nothing will happen, but they wont be able to progess in the story untill they pick 1 or 2. 
+1. The user can pick 1 or 2 depending on whether they want a city stroll or a forest stroll.
+
+2. If the user inputs A or 3, nothing will happen, and they won’t be able to progress in the story until they pick 1 or 2.
 ### Death
-1. When the player dies they have 2 options 
-2. They can pick y and they will play again 
+1. When the player dies, they have 2 options.
+2. They can pick y to play again.
 3. They can also pick n to leave. 
-4. IF they pick y they will go back to start game function
+4. If they pick y, they will go back to the start game function.
 ### Congratulation 
-1. When the player survives the stroll they will come to the congrats function
-2. When they come to that function they have 2 choices. 
-3. Press y to play again and they will come back to start game function 
-4. OR press n to leave the game. 
+1. When the player survives the stroll, they will reach the congrats function.
+2. At this point, they have 2 choices:
+- Press y to play again, returning to the start game function.
+- Press n to leave the game.
 ### Persons in the story
-1. Inside Hide boy function the user is able to pick women or man for the person they meet.
-2. If the player choose women, the story changes for the pronunciation to she. 
-3. We pass the prounce, person_c, person_c_g through the functions. 
-4. The player is only able to enter women or man but for the name they are able to pick a number. 
-5. If they enter invalid on "women or man" they will itirate back to "women or man" 
+1. Inside the Hide Boy function, the user can choose the gender (woman or man) of the person they meet.
+2. If the player chooses a woman, the story changes to use the pronoun "she."
+3. We pass the pronoun, person_c, and person_c_g through the functions.
+4. The player can only enter "woman" or "man," but for the name, they can choose any string.
+5. If they enter an invalid value for "woman or man," they will iterate back to the choice.
 ## Depoloyment
 
 I deployd this project to Heroku 
@@ -88,15 +85,14 @@ I deployd this project to Heroku
 
 
 ## Bugs 
- I found a couple bugs where the player would put in 3 when there only was 1 or 2 as an option wich would create an infinite loop. 
- The other bug i found was when i created else statments but didn't pass in the variable from the function wich made it crash.
+ I found a couple of bugs where the player would input 3 when there were only 1 or 2 as options, which would create an infinite loop. Another bug was when I created else statements but didn't pass in the variable from the function, causing a crash.
 
 ## Images 
 
-On this picture the user have the power to create it's own story by controlling who them will meet. Is it a a girl or man? Friend or foe? 
+In this picture, the user has the power to create their own story by controlling who they will meet. Is it a girl or a man? Friend or foe?
 ![Simpel_stroll](images/simpel_stroll.JPG)
 
-Here is another picture of the hole application. I tried to structure the text with _________ lines and \n
+Here is another picture of the whole application. I tried to structure the text with lines and \n.
 ![Another_picture_of_simpel_stroll](images/Skärmbild%20(97).png)
 
 ## To the Game 
