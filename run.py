@@ -46,7 +46,11 @@ def introduction():
     """
     Introduction about the game and what will happen
     """
-
+    print("HOW TO PLAY")
+    print("You will start the game by entering your name and then")
+    print("you will get choices to make on your stroll by")
+    print("pressing y,n,1,2 or 3 depening on the situation")
+    print("__________________________________________________________________")
     print("Welcome my fellow friend to the 'A Simple Stroll game' where")
     print("you will")
     print("be playing.\n")
@@ -76,8 +80,8 @@ def start_game():
             start_stroll(username)
             break
         else:
-            print
-            ("\nIm sorry, you need to use only letters in your username,")
+            print("\nIm sorry,")
+            print("you need to use only letters in your username,")
             print("try again")
             start_game()
 

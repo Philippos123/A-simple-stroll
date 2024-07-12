@@ -36,6 +36,10 @@ A simpel stroll is a game where you as a player controll the storyline. You cont
 The player will be able to input there characters name, wich will follow throught out the entire story. 
 The player will also be able to put in gender and name on characters they meet when they stroll. 
 Depending on if it is a women the player meet the entire story will give her the pronoun of she, and is it a man it will be he.
+- Person_c stands for the persons name 
+- Person_c_g stands for gender
+- Pronun stands for pronunce 
+- Username stands for the player´s name
 ### Events
 There is alot of events when the player picks the exciting path, the player will almways have a choice to go home. Beacuse that´s reality. Who would like to go for a stroll when you have no option on turning back for like 5 hours?? 
 ### Variables 
@@ -49,8 +53,27 @@ The game had alot of PEP8 errors wich is handeld now.
 ![PEP8](images/PEP8.png)
 
 ## Manual testing 
-
-
+### Start Game 
+1. Start the game by enter your name: I used an Isalpah function so the user is only able to use letters. If you use a number the system will make a loop back.
+### Choose path 
+1. The user is able to pick 1 or 2 depening on if the user want an city stroll or forest stroll
+2. IF the user input A or 3 nothing will happen, but they wont be able to progess in the story untill they pick 1 or 2. 
+### Death
+1. When the player dies they have 2 options 
+2. They can pick y and they will play again 
+3. They can also pick n to leave. 
+4. IF they pick y they will go back to start game function
+### Congratulation 
+1. When the player survives the stroll they will come to the congrats function
+2. When they come to that function they have 2 choices. 
+3. Press y to play again and they will come back to start game function 
+4. OR press n to leave the game. 
+### Persons in the story
+1. Inside Hide boy function the user is able to pick women or man for the person they meet.
+2. If the player choose women, the story changes for the pronunciation to she. 
+3. We pass the prounce, person_c, person_c_g through the functions. 
+4. The player is only able to enter women or man but for the name they are able to pick a number. 
+5. If they enter 2 on women or man they will come back to "women or man"? 
 ## Depoloyment
 
 I deployd this project to Heroku 
