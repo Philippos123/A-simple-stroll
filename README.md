@@ -1,5 +1,7 @@
 # Welcome to A Simple Stroll Game!
 
+![AMIRESPONSIV](images/jag%20responsiv.png)
+
 ## What is a simple stroll?
 A Simple stroll is a game for both females and male with tha age between 16-22 years. The goal with game is to give the player an exciting and goosbump feeling. It´s a horror game where you are going for a simple stroll and things turn south very fast. There is a old cabin by the woods with a child crying. What could go wrong?
 
@@ -38,6 +40,16 @@ Depending on if it is a women the player meet the entire story will give her the
 There is alot of events when the player picks the exciting path, the player will almways have a choice to go home. Beacuse that´s reality. Who would like to go for a stroll when you have no option on turning back for like 5 hours?? 
 ### Variables 
 The people the player's meet isn't static inside the game. Wich makes it important to past the variables further through the game. For exampel the variable "person_c_g" wich will change a person they meet in the game from women to man depending on what the player choose to pick in the early stages of the game and there prounances ofcourse wich lays in the "pronoun" variable. 
+
+# Testing 
+
+## PEP8 
+A simpel stroll passed the PEP8 with no errors, look at img belov. 
+The game had alot of PEP8 errors wich is handeld now. 
+![PEP8](images/PEP8.png)
+
+## Manual testing 
+
 
 ## Depoloyment
 

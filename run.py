@@ -32,6 +32,9 @@ def death():
             main()
         elif user_choice == "n":
             quit()
+        else:
+            print("Invalid choice. Please ress y or n")
+            death()
 
 
 def introduction():
@@ -368,8 +371,9 @@ def final_act_wardrobe(person_c, username, pronoun):
     print(f"{person_c}: Mr.Jansson help me!! ")
     print("Mr.Jansson runs up and boom!")
     print(f"Mr.Jansson falls down and start dying, you chooses to take")
-    (f"{person_c}´s hand and find the girl outside, so you decide to take")
-    ("her aswell\n")
+    print(f"{person_c}´s hand and find the girl outside,")
+    print("so you decide to take")
+    print("her aswell\n")
     congrat(username)
 
 
@@ -449,6 +453,9 @@ def congrat(username):
             start_game()
         elif user_choice == "n":
             quit()
+        else:
+            print("You need to press y or n")
+            congrat(username)
 
 
 def forest_tail():
