@@ -13,6 +13,17 @@ There will be between 2-3 diffrent paths for the player.
 The player will be able to pick 1,2 or 3 and y/n depening on the situation.
 
 
+# Project goal
+
+### For the user
+- To play a puzzle game where the goal is to survive the stroll.
+- To understand the instructions and understand how to play. 
+
+### For the admin
+- To provide the players with instructions. 
+- To make a game where there are no errors.
+
+
 ## Why would you want to play this game? 
 
 A simpel stroll is a game where you as a player controll the storyline. You controll the choices you make and the people you meet along the way. The game is nerve tickling wich makes it the perfect "late before bed game" when you sit alone a saturday night infront of your computer. 

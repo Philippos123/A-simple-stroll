@@ -26,8 +26,7 @@ def death():
     It allows the player to choose whether to play again or quit the game.
     """
     print("Welcome to the afterlife!")
-    user_choice = input
-    ("would you like to play again? press y or press n for leaving:")
+    user_choice = input("would you like to play again? press y or n")
     while True:
         if user_choice == "y":
             main()
