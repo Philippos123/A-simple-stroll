@@ -84,6 +84,26 @@ If the player loses to the game, they will recive a "Welcome to the afterlife" a
 
 </details><br>
 
+### User Stories
+(1) Before you sign up with a username to start the game you will see a text that describe the game to encourage the user to start. 
+
+(2) Before you get to pick a path, you will see instructions 
+
+(3) You will get information about your location and your characters whereabout like a story. 
+
+(4) For inputs (whether text or numerical) to work as expected and any erroneous inputs to be flagged by the program.
+
+(5) For the program to give me feedback when I answer game questions correctly or incorrectly.
+
+#### As the site owner...
+(6) Ensure that the user understand what's happening in the story.
+
+(7) Ensure that all user actions are given feedback in the terminal so that users feel they know what to do next in the game.
+
+(8) Ensure that if the user input invalid symbols it ittirate back or inform the user about it. 
+
+
+
 
 ## Why would you want to play this game? 
 
