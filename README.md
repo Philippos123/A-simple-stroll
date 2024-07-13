@@ -2,7 +2,7 @@
 
 ![AMIRESPONSIV](images/jag%20responsiv.png)
 
-## What is a simple stroll?
+## Introduction
 A Simple Stroll is a game for both females and males aged between 16-22 years. The goal of the game is to give the player an exciting and goosebump-inducing experience. It’s a horror game where you go for a simple stroll, and things turn south very quickly. There is an old cabin by the woods with a child crying. What could go wrong?
 
 
@@ -12,6 +12,30 @@ You will follow the story of "A Simple Stroll" and reach points where you need t
 The player will be able to give names and genders to the characters they meet in the story. There will be 2-3 different paths for the player to choose from.
 
 The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
+
+## Contents
+* [Project Goals](#project-goals)<br>
+    * [For the user](#for-the-user)
+    * [For the site owner](#for-the-site-owner)
+* [User Experience](#user-experience)<br>
+    * [Target audience](#target-audience)
+    * [User requirements](#user-requirements)
+    * [User Manual](#user-manual)
+    * [User Stories](#user-stories)
+* [Technical Design](#technical-design)
+    * [Data Models](#data-models)
+    * [Flowchart](#flowchart)
+* [Features](#features)
+    * [App Features](#app-features)
+    * [Feature Ideas for future development](#feature-ideas-for-future-development)
+* [Technologies Used](#technologies-used)
+* [Deployment & Local Development](#deployment--local-development)
+* [Testing](#testing)
+    * [Validation](#validation)
+    * [Manual Testing](#manual-testing)
+    * [Automated Testing](#automated-testing)
+    * [Bugs](#bugs)
+* [Credits](#credits)
 
 
 # Project goal
