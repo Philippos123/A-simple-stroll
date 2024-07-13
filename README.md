@@ -16,7 +16,7 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 ## Contents
 * [Project Goals](#project-goals)<br>
     * [For the user](#for-the-user)
-    * [For the site owner](#for-the-site-owner)
+    * [For the site owner](#for-the-admin)
 * [User Experience](#user-experience)<br>
     * [Target audience](#target-audience)
     * [User requirements](#user-requirements)
