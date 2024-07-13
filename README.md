@@ -24,6 +24,66 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 - To provide players with clear instructions.
 - To create a game without errors.
 
+## User Experience
+
+### Target audience
+There are no specific users for the site, but the game would suit young users who are in search for a thrill. 
+It can alose be played by older users, it all depends on there personal intrest. 
+
+
+### User requirements
+* A game that is understandable and works as expected.
+* A game that passes all the variables and functions works as expected. 
+* User can quit the game when they want.
+* User can continue playing even if they win. 
+
+
+### User Manual
+Click the dropdown to view the user manual:
+<details>
+<summary>User Manual</summary>
+
+### Main menu
+The user will be prompted to enter a player name, and will then be directed to the main menu.
+There are 2 options in the menu:
+1. Go right into the big and exciting city
+2. Go to the left into the adventure full forest. 
+
+
+### Reading instructions
+The user is able to see the instructions to the game in beginning of every new round. 
+- Exampel <details>"HOW TO PLAY
+You will start the game by entering your name and then
+you will get choices to make on your stroll by
+pressing y,n,1,2 or 3 depening on the situation"</details>
+
+### Quitting the game
+If x is selected in the main menu (or at any time during the levels):
+* User will be asked if they're sure they want to quit (type y or n, press enter).
+* User prompted for feedback (type y or n, press enter).
+* User thanked for playing and reminded how to restart the game.
+
+### Playing the game
+Once the game is started, the user must complete 10 levels, and successfully answer maths questions between each level. If the user makes 3 mistakes, the game ends and the user must restart or quit.
+
+#### Level navigation
+The player must move the character (represented by the letter 'A') to the exit of each level/maze.
+
+In order to navigate through levels of the dungeon, the user must type their moves in the format:
+DIRECTION,STEPS where:
+* DIRECTION is U, D, L, R (up, down, left, right).
+* STEPS is a whole number between 1 and 9.
+#### Examples
+* Entering U,3 in the terminal would move the character up by 3 steps.
+* Entering R,1 in the terminal would move the character right by 1 step.
+
+#### Beware
+* If the user navigates into a level wall, the character will lose 1 life.
+* If the user tries to navigate out of bounds (i.e. enters a number that would move the character outside the level), the character will lose 1 life AND the level will be reset!
+* If the user completes a level, but fails to answer the subsequent maths question correctly, the character will lose 1 life and the player will miss out on bonus points. 
+
+</details><br>
+
 
 ## Why would you want to play this game? 
 

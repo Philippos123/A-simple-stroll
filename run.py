@@ -488,6 +488,9 @@ def forest_tail():
         elif user_choice == "2":
             print("You ignore the sound and walks home")
             home()
+        else:
+            print("You have to choose 1 or 2")
+            forest_tail()
 
 
 def find_girl():
@@ -531,6 +534,7 @@ def find_girl():
             home()
         else:
             print("You have to choose 1 or 2")
+            find_girl()
 
 
 def girl_cabin():
