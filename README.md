@@ -58,29 +58,29 @@ you will get choices to make on your stroll by
 pressing y,n,1,2 or 3 depening on the situation"</details>
 
 ### Quitting the game
-If x is selected in the main menu (or at any time during the levels):
-* User will be asked if they're sure they want to quit (type y or n, press enter).
-* User prompted for feedback (type y or n, press enter).
-* User thanked for playing and reminded how to restart the game.
+The user is never able to choose to quit the game intentionally untill the player dies, win or goes home. But there are many paths that lead to the end of the game. 
 
 ### Playing the game
-Once the game is started, the user must complete 10 levels, and successfully answer maths questions between each level. If the user makes 3 mistakes, the game ends and the user must restart or quit.
+Once the game is started, the user must choose the right path to keep playing. If the user chooses the wrong path they eather end up dead or walking home and ending the stroll.
 
-#### Level navigation
-The player must move the character (represented by the letter 'A') to the exit of each level/maze.
+#### Player navigation
+The player must move the character by typing their moves. 
 
-In order to navigate through levels of the dungeon, the user must type their moves in the format:
-DIRECTION,STEPS where:
-* DIRECTION is U, D, L, R (up, down, left, right).
-* STEPS is a whole number between 1 and 9.
+In order to navigate through levels of the story, the user must type their moves in the format:
+y,n,1,2,3
 #### Examples
-* Entering U,3 in the terminal would move the character up by 3 steps.
-* Entering R,1 in the terminal would move the character right by 1 step.
+* Would you like to follow molly? y for yes n for no
+* You have two choices- 1: Go to the big city. 2:Go to the adventure full forest 
 
 #### Beware
-* If the user navigates into a level wall, the character will lose 1 life.
-* If the user tries to navigate out of bounds (i.e. enters a number that would move the character outside the level), the character will lose 1 life AND the level will be reset!
-* If the user completes a level, but fails to answer the subsequent maths question correctly, the character will lose 1 life and the player will miss out on bonus points. 
+* If the user navigates into a story line where they die they will need to restart the game by pressing y. 
+* If the user enters a story line there is no way to retreat. You only have one chance. 
+
+### Completing the game
+The goal for the game is to survive a crazy stroll. If the player survive against the odds the player will reveive a "Congratulations" and get the choice to play again or leave. If the user is intrested in following an diffrent storyline 
+
+### Losing the game 
+If the player loses to the game, they will recive a "Welcome to the afterlife" and get the choice to play again or leave. If the user is intrested in following an diffrent storyline 
 
 </details><br>
 
