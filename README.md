@@ -38,7 +38,7 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 * [Credits](#credits)
 
 
-# Project goal
+# Project goals
 
 ### For the user
 - To play a puzzle game where the goal is to survive the stroll.
