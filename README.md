@@ -52,10 +52,10 @@ There are 2 options in the menu:
 
 ### Reading instructions
 The user is able to see the instructions to the game in beginning of every new round. 
- <Exampel>"HOW TO PLAY
+ <details><summary>HOW TO PLAY </summary>
 You will start the game by entering your name and then
 you will get choices to make on your stroll by
-pressing y,n,1,2 or 3 depening on the situation"</Exampel>
+pressing y,n,1,2 or 3 depening on the situation"</details>
 
 ### Quitting the game
 If x is selected in the main menu (or at any time during the levels):
