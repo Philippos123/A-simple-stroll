@@ -1,6 +1,7 @@
 # Welcome to A Simple Stroll Game!
 
 ![AMIRESPONSIV](images/jag%20responsiv.png)
+[Link to live site](https://a-simple-stroll-c4fc7eb42776.herokuapp.com/)
 
 ## Introduction
 A Simple Stroll is a game for both females and males aged between 16-22 years. The goal of the game is to give the player an exciting and goosebump-inducing experience. It’s a horror game where you go for a simple stroll, and things turn south very quickly. There is an old cabin by the woods with a child crying. What could go wrong?
