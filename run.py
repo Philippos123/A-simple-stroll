@@ -623,7 +623,7 @@ def gunfight(username):
             print("me and aim at the girl...")
             print("DONK")
             print("Mr.Jansson was her father...\n")
-            death(username)
+            death()
         elif user_choice == "n":
             print("\nWhat where you doing out here Mr:jansson?")
             print("Mr.Jansson: Just taking stroll")
@@ -677,7 +677,7 @@ def home(username):
     user_choice = input("Would you like to play again? y/n\n")
     while True:
         if user_choice == "y":
-            main(username)
+            main()
         elif user_choice == "n":
             quit
         else:
