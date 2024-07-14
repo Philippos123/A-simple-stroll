@@ -284,10 +284,18 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 2. When you go deeper you have the option to follow Molly inside a cabin or go Home. 1 Go inside Cabin or 2 Go Home. 
 3. When you are inside the cabin, Molly asks if you want tea? If you drink the tea you die, if u refuse u will wait for her father
 4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive.
-
-<h2>These steps works as expected.</h2>
- 
+<details>
+<summary>If you take the gun</summary>
+<p>In the forest trail, you will have the chance to pick up the gun.</p>
+<img src="images/last with gun.png" alt="A screenshot if you pick up the gun">
 </details>
+
+<details>
+<summary>If you run</summary>
+<p>In the forest trail, you will have the chance to run for your life.</p>
+<img src="images/Last with run.png" alt="A screenshot if you choose to run">
+</details>
+
 
 ### City trail 
 <details>
