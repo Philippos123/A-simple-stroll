@@ -185,6 +185,16 @@ The website has a single page with several features within the mock python termi
         <li>
 </details><br>
 
+### Flowchart
+
+A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the logic flow of the game.
+
+<details>
+    <summary>Flowchart</summary>
+    <p>A simpel stroll lucidchart</p>
+    <img src="/images/Flowchart.png" alt="A screenshot of the flowchart of game logic">
+</details><br>
+
 
 ## Why would you want to play this game? 
 
@@ -235,18 +245,63 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 3. We pass the pronoun, person_c, and person_c_g through the functions.
 4. The player can only enter "woman" or "man," but for the name, they can choose any string.
 5. If they enter an invalid value for "woman or man," they will iterate back to the choice.
-## Depoloyment
+## Deployment & Local Development
+The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
+1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
+<img src="images/heroku login.png">
+1. Click on New > Create new app in the top right of the screen.
+<img src="images/new heroku.png">
+1. Add an app name and select location, then click 'create app'.
+<img src="images/create heroku.png">
+1. Under the deploy tab of the next page, select connect to GitHub.
+1. Log in to your GitHub account when prompted.
+<img src="images/depo heroku.png">
+1. Select the repository that you want to be connected to the Heroku app.
+<img src="images/depo this heroku.png">
+1. Click on the settings tab.
+<img src="images/setting heroku.png">
+1. Scroll down to the config vars section, and add 2 config vars:
+    * The first key is CREDS and the value here is the creds.json file that was generated for the google sheets API to work properly.
+    * The second key is PORT and the Value is 8000
+<img src="images/config heroku.png">
+1. Once you have set up the config vars, scroll down to buildpacks (still under the settings tab)
+1. Add the Python and Node.js buildpacks to your app and make sure that when they are displayed, they appear in the order:
+    * Python
+    * Node.JS
+<img src="images/build pack heroku.png">
+1. Navigate back to the settings tab.
+1. Select automatic deploys to allow Heroku to build the site with new changes each time changes are pushed to GitHub.
+<img src="images/Auto depo heroku.png">
+1. In the 'manual deploy' section beneath this, make sure the branch selected is 'main' and click deploy branch.
+<img src="images/manual depo.png">
+1. The site should now be built and Heroku should provide a url for the built site.
 
-I deployd this project to Heroku 
+This repository can be forked using the following process:
+1. On the repository's page, go to the top-right of the page underneath the dark ribbon.
+1. Click on the fork button
+1. You can now work on a fork of this project. 
 
-1. I logged in to Heroku
-2. Created new app
-3. Named my app and picked my region 
-4. Then i linked the heroku app to my repo in github and loaded it. 
+This repository can be cloned using the following process:
+1. Go to this repository's page on GitHub.
+1. Click on the code button (not the one in the navbar, but the one right above the file list).
+1. Select an option, HTTPS, SSH, GitHub CLI.
+1. Copy the url below to your clipboard.
+1. Open Git Bash/your IDE terminal.
+1. Ensure the directory you are working in is the correct one you want to paste the project into.
+1. Type the command '$ git clone'
+1. Paste the URL of the repository after this.
+1. Hit enter on your keyboard and the project will be cloned.
 
 
-## Bugs 
- I found a couple of bugs where the player would input 3 when there were only 1 or 2 as options, which would create an infinite loop. Another bug was when I created else statements but didn't pass in the variable from the function, causing a crash.
+## Testing
+### Debugging
+The site was tested using the following browsers: 
+* Google Chrome
+* Microsoft Edge
+
+The site was tested on the following devices:
+* Desktop (Windows 11)
+* Macbook M1 2018(macOS Sonoma 14.3)
 
 ## Images 
 

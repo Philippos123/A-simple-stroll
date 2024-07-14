@@ -106,7 +106,7 @@ def start_stroll(username):
         city_tail(username)
 
     elif user_choice == "2":
-        forest_tail()
+        forest_tail(username)
 
     else:
         print("You need to enter 1 or 2 to start your adventure")
@@ -484,7 +484,7 @@ def forest_tail(username):
     while True:
         if user_choice == "1":
             print("You start the search for the girl")
-            find_girl()
+            find_girl(username)
         elif user_choice == "2":
             print("You ignore the sound and walks home")
             home()
@@ -528,10 +528,10 @@ def find_girl(username):
     while True:
         if user_choice == "1":
             print("You will follow Molly")
-            girl_cabin()
+            girl_cabin(username)
         elif user_choice == "2":
             print("You got a creepy feeling and went home")
-            home()
+            home(username)
         else:
             print("You have to choose 1 or 2")
             find_girl()
@@ -550,10 +550,10 @@ def girl_cabin(username):
     while True:
         if user_choice == "y":
             print("I will have some!")
-            soon_death()
+            soon_death(username)
         elif user_choice == "n":
             print("No thanks im not thirsty")
-            fight_for_life()
+            fight_for_life(username)
         else:
             print("You need to choose y or n to continue playing")
 
