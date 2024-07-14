@@ -31,7 +31,7 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 * [Technologies Used](#technologies-used)
 * [Deployment & Local Development](#deployment--local-development)
 * [Testing](#testing)
-    * [Validation](#validation)
+    * [Validation](#pep8)
     * [Manual Testing](#manual-testing)
     * [Automated Testing](#automated-testing)
     * [Bugs](#bugs)
@@ -126,7 +126,64 @@ If the player loses to the game, they will recive a "Welcome to the afterlife" a
 
 (8) Ensure that if the user input invalid symbols it ittirate back or inform the user about it. 
 
+## Technical Design
 
+### Flowchart
+
+A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the logic flow of the game.
+
+<details>
+    <summary>Flowchart</summary>
+    <p>Dungeon Escape game logic:</p>
+    <img src="docs/technical-design/flowchart.png" alt="A screenshot of the flowchart of game logic">
+</details><br>
+
+
+## Features
+The website has a single page with several features within the mock python terminal. These features are listed below.
+
+### App Features:
+
+<details>
+    <summary>Game Title</summary>
+    <p>This is what the user sees upon loading the site. </p>
+    <ul>
+        <li>
+            <p>Enter name y/n options</p>
+        </li>
+        <li>
+            <img src="images/main stroll.png" alt="A screenshot of the main meny y/n feature">
+        </li>
+        <li>
+
+    
+
+</details><br>
+
+<details>
+    <summary>Activites in the Game </summary>
+    <p>This is what the user sees if the user takes the right path in the living city.  </p>
+    <ul>
+        <li>
+            <p>Who do you meet? Women or man? </p>
+        </li>
+        <li>
+            <img src="images/meet who stroll.png" alt="A screenshot of when the user is able to effect the story based on there preference. ">
+        </li>
+        <li>
+</details><br>
+<details>
+    <summary>Activites in the Game </summary>
+    <p>This is what the user sees if the user end up with Mr.Jansson in the cabin and wants to save the side characters.</p>
+    <ul>
+        <li>
+            <p>What are you going to do?</p>
+        </li>
+        <li>
+            <img src="images/val stroll.png" alt="A screenshot of when the user must make a choice of what to do.  ">
+        </li>
+        <li>
+</details><br>
 
 
 ## Why would you want to play this game? 

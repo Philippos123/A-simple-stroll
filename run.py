@@ -462,7 +462,7 @@ def congrat(username):
             congrat(username)
 
 
-def forest_tail():
+def forest_tail(username):
     """
     forest_tail(): This function sets up the initial scenario where the player
     is on a stroll in the woods.
@@ -493,7 +493,7 @@ def forest_tail():
             forest_tail()
 
 
-def find_girl():
+def find_girl(username):
     """
     find_girl(): This function is called when the player chooses
     to find the child.
@@ -537,7 +537,7 @@ def find_girl():
             find_girl()
 
 
-def girl_cabin():
+def girl_cabin(username):
     """
     girl_cabin(): This function is called when the player chooses to follow
      Molly inside her cabin.
@@ -558,7 +558,7 @@ def girl_cabin():
             print("You need to choose y or n to continue playing")
 
 
-def soon_death():
+def soon_death(username):
     """
     soon_death(): This function is called if the player chooses to drink
     the tea.
@@ -574,7 +574,7 @@ def soon_death():
     death()
 
 
-def fight_for_life():
+def fight_for_life(username):
     """
     fight_for_life(): This function is called if the player refuses to drink
     the tea.
@@ -666,7 +666,7 @@ def home_safe(username):
     congrat(username)
 
 
-def home():
+def home(username):
     """
     home(): This function is called if the player chooses to ignore the
     child's cries at the beginning.
