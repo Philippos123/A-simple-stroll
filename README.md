@@ -222,29 +222,68 @@ The people the player meets aren’t static in the game. This makes it important
 A Simple Stroll passed the PEP8 checks with no errors, as shown in the image below. The game initially had a lot of PEP8 errors, which have been resolved now. 
 ![PEP8](images/PEP8.png)
 
-## Manual testing 
+## Manual testing
+
 ### Start Game 
 1. Start the game by entering your name. I used an isalpha function so the user can only use letters. If you use a number, the system will loop back.
 ### Choose path 
 1. The user can pick 1 or 2 depending on whether they want a city stroll or a forest stroll.
-
 2. If the user inputs A or 3, nothing will happen, and they won’t be able to progress in the story until they pick 1 or 2.
+
 ### Death
+<details>
+<summary>Death</summary>
 1. When the player dies, they have 2 options.
 2. They can pick y to play again.
 3. They can also pick n to leave. 
 4. If they pick y, they will go back to the start game function.
+<h2>These steps works as expected.</h2>
+</details>
+
 ### Congratulation 
+
+<details>
+<summary>Congratulation</summary>
 1. When the player survives the stroll, they will reach the congrats function.
 2. At this point, they have 2 choices:
 - Press y to play again, returning to the start game function.
 - Press n to leave the game.
+<h2>These steps works as expected.</h2>
+</details>
+
 ### Persons in the story
+<details>
+<summary>Persons in the story</summary>
 1. Inside the Hide Boy function, the user can choose the gender (woman or man) of the person they meet.
 2. If the player chooses a woman, the story changes to use the pronoun "she."
 3. We pass the pronoun, person_c, and person_c_g through the functions.
 4. The player can only enter "woman" or "man," but for the name, they can choose any string.
 5. If they enter an invalid value for "woman or man," they will iterate back to the choice.
+<h2>These steps works as expected.</h2>
+</details>
+
+### Forest trail 
+<details>
+<summary>Forest trail</summary>
+1. When you get on the forest trail you are abel to press 1 or 2. 2 Leads home but 1 leads deeper in the woods. 
+2. When you go deeper you have the option to follow Molly inside a cabin or go Home. 1 Go inside Cabin or 2 Go Home. 
+3. When you are inside the cabin, Molly asks if you want tea? If you drink the tea you die, if u refuse u will wait for her father
+4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive. 
+<h2>These steps works as expected.</h2>
+
+</details>
+### City trail 
+<details>
+<summary>City trail</summary>
+1. You have three choices when you enter the city. 1 Hide the boy 2. Fight of the guys that bully the boy 3. Ignore and go home. 
+2. If you choose the first you will get the attention from someone else, here the user is able to choose if it is a women or man the user get attention from. And that persons name. 
+3. This person want's to drink coffe with you. If you dont want to drink coffe you go home. 
+4. Something is wrong with this person so you can either ask or ignore it, it wont make a diffrence. 
+5. This person tells you about Mr.Jansson and that this persons need your help. This person saw your courage when you saved the boy and seeks for your help. You get 3 choies
+6. You are inside the cabin and you are in the endgame. You will get 3 diffrent choices.
+<h2>These steps works as expected.</h2>
+</details>
+
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
