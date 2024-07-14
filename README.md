@@ -207,11 +207,11 @@ A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the 
 Python 
 
 ### Other tools 
-Lucidchart- was used to create wireframes
-Git- was used for version control
-Github-Was used for saving and storking files.
-Gitpod -Was the IDE used for writing and editing code.
-Heroku - was used as the hosting platform for the site. 
+- Lucidchart was used to create wireframes
+- Git was used for version control
+- Github Was used for saving and storking files.
+- Gitpod Was the IDE used for writing and editing code.
+- Heroku  was used as the hosting platform for the site. 
 
 ## Why would you want to play this game? 
 
