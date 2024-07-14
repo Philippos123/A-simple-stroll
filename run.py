@@ -487,10 +487,10 @@ def forest_tail(username):
             find_girl(username)
         elif user_choice == "2":
             print("You ignore the sound and walks home")
-            home()
+            home(username)
         else:
             print("You have to choose 1 or 2")
-            forest_tail()
+            forest_tail(username)
 
 
 def find_girl(username):
@@ -534,7 +534,7 @@ def find_girl(username):
             home(username)
         else:
             print("You have to choose 1 or 2")
-            find_girl()
+            find_girl(username)
 
 
 def girl_cabin(username):
@@ -623,7 +623,7 @@ def gunfight(username):
             print("me and aim at the girl...")
             print("DONK")
             print("Mr.Jansson was her father...\n")
-            death()
+            death(username)
         elif user_choice == "n":
             print("\nWhat where you doing out here Mr:jansson?")
             print("Mr.Jansson: Just taking stroll")
@@ -641,7 +641,7 @@ def gunfight(username):
             congrat(username)
         else:
             print("Im sorry you need to answer with y/n keep playing")
-            gunfight()
+            gunfight(username)
 
 
 def home_safe(username):
@@ -677,7 +677,7 @@ def home(username):
     user_choice = input("Would you like to play again? y/n\n")
     while True:
         if user_choice == "y":
-            main()
+            main(username)
         elif user_choice == "n":
             quit
         else:
