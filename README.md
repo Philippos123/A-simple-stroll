@@ -226,9 +226,12 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 
 ### Start Game 
 1. Start the game by entering your name. I used an isalpha function so the user can only use letters. If you use a number, the system will loop back.
+<img src="images/start game man.png" alt="A screenshot before you start the game">
+
 ### Choose path 
 1. The user can pick 1 or 2 depending on whether they want a city stroll or a forest stroll.
 2. If the user inputs A or 3, nothing will happen, and they won’t be able to progress in the story until they pick 1 or 2.
+<img src="images/choose path.png" alt="A screenshot of the path in the beginning">
 
 ### Death
 <details>
@@ -237,6 +240,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 2. They can pick y to play again.
 3. They can also pick n to leave. 
 4. If they pick y, they will go back to the start game function.
+<img src="images/death.png" alt="A screenshot if you die">
 <h2>These steps works as expected.</h2>
 </details>
 
@@ -248,6 +252,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 2. At this point, they have 2 choices:
 - Press y to play again, returning to the start game function.
 - Press n to leave the game.
+<img src="images/congrat.png" alt="A screenshot if you win">
 <h2>These steps works as expected.</h2>
 </details>
 
@@ -259,6 +264,16 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 3. We pass the pronoun, person_c, and person_c_g through the functions.
 4. The player can only enter "woman" or "man," but for the name, they can choose any string.
 5. If they enter an invalid value for "woman or man," they will iterate back to the choice.
+<img src="images/women or man .png" alt="A screenshot if you win">
+If you pick man the pronunce will be he, if you pick women the pronunce will be She.
+<details>
+<summary>If you pick a man </summary>
+<img src="images/he.png" alt="A screenshot if you pick man">
+</details>
+<details>
+<summary>If you pick a women</summary>
+<img src="images/she.png" alt="A screenshot if you pick women">
+</details>
 <h2>These steps works as expected.</h2>
 </details>
 
@@ -268,10 +283,12 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 1. When you get on the forest trail you are abel to press 1 or 2. 2 Leads home but 1 leads deeper in the woods. 
 2. When you go deeper you have the option to follow Molly inside a cabin or go Home. 1 Go inside Cabin or 2 Go Home. 
 3. When you are inside the cabin, Molly asks if you want tea? If you drink the tea you die, if u refuse u will wait for her father
-4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive. 
-<h2>These steps works as expected.</h2>
+4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive.
 
+<h2>These steps works as expected.</h2>
+ 
 </details>
+
 ### City trail 
 <details>
 <summary>City trail</summary>
@@ -280,7 +297,8 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 3. This person want's to drink coffe with you. If you dont want to drink coffe you go home. 
 4. Something is wrong with this person so you can either ask or ignore it, it wont make a diffrence. 
 5. This person tells you about Mr.Jansson and that this persons need your help. This person saw your courage when you saved the boy and seeks for your help. You get 3 choies
-6. You are inside the cabin and you are in the endgame. You will get 3 diffrent choices.
+6. You are inside the cabin and you are in the endgame. You will get 3 diffrent choices. choice no:1 leads to congrats and the other 2 leads to death.
+<img src="images/last city.png" alt="A screenshot if you pick women">
 <h2>These steps works as expected.</h2>
 </details>
 
