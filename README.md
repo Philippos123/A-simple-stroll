@@ -24,7 +24,6 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
     * [User Manual](#user-manual)
     * [User Stories](#user-stories)
 * [Technical Design](#technical-design)
-    * [Data Models](#data-models)
     * [Flowchart](#flowchart)
 * [Features](#features)
     * [App Features](#app-features)
@@ -34,7 +33,6 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 * [Testing](#testing)
     * [Validation](#pep8)
     * [Manual Testing](#manual-testing)
-    * [Automated Testing](#automated-testing)
     * [Bugs](#bugs)
 * [Credits](#credits)
 
@@ -150,12 +148,12 @@ The website has a single page with several features within the mock python termi
     <p>This is what the user sees upon loading the site. </p>
     <ul>
         <li>
-            <p>Enter name y/n options</p>
+            <p>Enter name</p>
         </li>
         <li>
             <img src="images/main stroll.png" alt="A screenshot of the main meny y/n feature">
         </li>
-        <li>
+        
 
     
 
@@ -171,7 +169,7 @@ The website has a single page with several features within the mock python termi
         <li>
             <img src="images/meet who stroll.png" alt="A screenshot of when the user is able to effect the story based on there preference. ">
         </li>
-        <li>
+        
 </details><br>
 <details>
     <summary>Activites in the Game </summary>
@@ -183,8 +181,16 @@ The website has a single page with several features within the mock python termi
         <li>
             <img src="images/val stroll.png" alt="A screenshot of when the user must make a choice of what to do.  ">
         </li>
-        <li>
+        
 </details><br>
+
+
+## feature ideas for future development
+In future the website could be further developed and improved to offer more game rules and more diversity. It would be cool to add AI generated images in the future.
+- Add more complex storyline with diffrent outcomes
+- Add img
+- A wider amount of tails. 
+- Add more side characters to interact with 
 
 ### Flowchart
 
@@ -196,6 +202,16 @@ A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the 
     <img src="/images/Flowchart.png" alt="A screenshot of the flowchart of game logic">
 </details><br>
 
+## Technologies used
+### Languages used
+Python 
+
+### Other tools 
+Lucidchart- was used to create wireframes
+Git- was used for version control
+Github-Was used for saving and storking files.
+Gitpod -Was the IDE used for writing and editing code.
+Heroku - was used as the hosting platform for the site. 
 
 ## Why would you want to play this game? 
 
@@ -369,6 +385,12 @@ The site was tested on the following devices:
 * Desktop (Windows 11)
 * Macbook M1 2018(macOS Sonoma 14.3)
 
+### Bugs
+1. I found a bug where i didnt define the "username" on the forest trail wich made the application crash.
+2. When the player added invalid input it became an infinite loop so I hade to make sure that if they added invalid input they were irritated back to that function.
+
+
+
 ## Images 
 
 In this picture, the user has the power to create their own story by controlling who they will meet. Is it a girl or a man? Friend or foe?
@@ -379,5 +401,10 @@ Here is another picture of the whole application. I tried to structure the text 
 
 ## To the Game 
 Here is the link to the game <https://a-simple-stroll-c4fc7eb42776.herokuapp.com/>
+
+
+## Credit 
+
+Thanks for the feedback i got from my mentor Mo 
 
 
