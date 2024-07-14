@@ -222,18 +222,18 @@ The people the player meets aren’t static in the game. This makes it important
 A Simple Stroll passed the PEP8 checks with no errors, as shown in the image below. The game initially had a lot of PEP8 errors, which have been resolved now. 
 ![PEP8](images/PEP8.png)
 
-## Manual testing
+# Manual testing
 
-### Start Game 
+## Start Game 
 1. Start the game by entering your name. I used an isalpha function so the user can only use letters. If you use a number, the system will loop back.
 <img src="images/start game man.png" alt="A screenshot before you start the game">
 
-### Choose path 
+## Choose path 
 1. The user can pick 1 or 2 depending on whether they want a city stroll or a forest stroll.
 2. If the user inputs A or 3, nothing will happen, and they won’t be able to progress in the story until they pick 1 or 2.
 <img src="images/choose path.png" alt="A screenshot of the path in the beginning">
 
-### Death
+## Death
 <details>
 <summary>Death</summary>
 1. When the player dies, they have 2 options.
@@ -244,7 +244,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 <h2>These steps works as expected.</h2>
 </details>
 
-### Congratulation 
+## Congratulation 
 
 <details>
 <summary>Congratulation</summary>
@@ -256,7 +256,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 <h2>These steps works as expected.</h2>
 </details>
 
-### Persons in the story
+## Persons in the story
 <details>
 <summary>Persons in the story</summary>
 1. Inside the Hide Boy function, the user can choose the gender (woman or man) of the person they meet.
@@ -277,7 +277,7 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 <h2>These steps works as expected.</h2>
 </details>
 
-### Forest trail 
+## Forest trail 
 <details>
     <summary>Forest trail</summary>
     1. When you get on the forest trail you are abel to press 1 or 2. 2 Leads home but 1 leads deeper in the woods. 
@@ -297,7 +297,7 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 </details>
 </details>
 
-### City trail 
+## City trail 
 <details>
 <summary>City trail</summary>
 1. You have three choices when you enter the city. 1 Hide the boy 2. Fight of the guys that bully the boy 3. Ignore and go home. 
@@ -308,7 +308,7 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 6. You are inside the cabin and you are in the endgame. You will get 3 diffrent choices. choice no:1 leads to congrats and the other 2 leads to death.
 <img src="images/last city.png" alt="A screenshot if you pick women">
 <h2>These steps works as expected.</h2>
-</details>
+    </details>
 
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
