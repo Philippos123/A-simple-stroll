@@ -138,6 +138,17 @@ A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the 
 </details><br>
 
 
+### Data Models
+
+
+* Dictionaries were used to store user data.
+    * This helped to verify user input when playing the game. 
+* Attributes between functions
+    * With the help of the dictionaries the player could change some part of the stories based on ther prefrence. I could use F-strings to change who the player was in the situation with. 
+
+
+
+
 ## Features
 The website has a single page with several features within the mock python terminal. These features are listed below.
 
