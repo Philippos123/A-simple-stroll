@@ -279,23 +279,23 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 
 ### Forest trail 
 <details>
-<summary>Forest trail</summary>
-1. When you get on the forest trail you are abel to press 1 or 2. 2 Leads home but 1 leads deeper in the woods. 
-2. When you go deeper you have the option to follow Molly inside a cabin or go Home. 1 Go inside Cabin or 2 Go Home. 
-3. When you are inside the cabin, Molly asks if you want tea? If you drink the tea you die, if u refuse u will wait for her father
-4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive.
+    <summary>Forest trail</summary>
+    1. When you get on the forest trail you are abel to press 1 or 2. 2 Leads home but 1 leads deeper in the woods. 
+    2. When you go deeper you have the option to follow Molly inside a cabin or go Home. 1 Go inside Cabin or 2 Go Home. 
+    3. When you are inside the cabin, Molly asks if you want tea? If you drink the tea you die, if u refuse u will wait for her father
+    4. If you refuse to drink the tea you have the choice to shoot Molly and her father and survive or Run for your life wich also makes you survive.
 <details>
-<summary>If you take the gun</summary>
-<p>In the forest trail, you will have the chance to pick up the gun.</p>
-<img src="images/last with gun.png" alt="A screenshot if you pick up the gun">
+    <summary>If you take the gun</summary>
+    <p>In the forest trail, you will have the chance to pick up the gun.</p>
+    <img src="images/last with gun.png" alt="A screenshot if you pick up the gun">
 </details>
 
 <details>
-<summary>If you run</summary>
-<p>In the forest trail, you will have the chance to run for your life.</p>
-<img src="images/Last with run.png" alt="A screenshot if you choose to run">
+    <summary>If you run</summary>
+    <p>In the forest trail, you will have the chance to run for your life.</p>
+    <img src="images/Last with run.png" alt="A screenshot if you choose to run">
 </details>
-
+</details>
 
 ### City trail 
 <details>
