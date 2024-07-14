@@ -403,7 +403,7 @@ Here is another picture of the whole application. I tried to structure the text 
 Here is the link to the game <https://a-simple-stroll-c4fc7eb42776.herokuapp.com/>
 
 
-## Credit 
+## Credits
 
 Thanks for the feedback i got from my mentor Mo 
 
