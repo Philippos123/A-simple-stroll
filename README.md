@@ -134,7 +134,7 @@ A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the 
 <details>
     <summary>Flowchart</summary>
     <p>Dungeon Escape game logic:</p>
-    <img src="docs/technical-design/flowchart.png" alt="A screenshot of the flowchart of game logic">
+    <img src="images/Flowchart.png" alt="A screenshot of the flowchart of game logic">
 </details><br>
 
 
