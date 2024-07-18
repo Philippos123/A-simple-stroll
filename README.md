@@ -163,6 +163,7 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/main stroll.png" alt="A screenshot of the main meny y/n feature">
+            <p> 1-5 </p>
         </li>
         
 
@@ -179,6 +180,7 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/meet who stroll.png" alt="A screenshot of when the user is able to effect the story based on there preference. ">
+            <p> 1-5 </p>
         </li>
         
 </details><br>
@@ -191,6 +193,7 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/val stroll.png" alt="A screenshot of when the user must make a choice of what to do.  ">
+            <p> 1-5 </p>
         </li>
         
 </details><br>
@@ -402,6 +405,8 @@ The site was tested on the following devices:
 * Desktop (Windows 11)
 * Macbook M1 2018(macOS Sonoma 14.3)
 
+
+
 ### Bugs
 1. I found a bug where i didnt define the "username" on the forest trail wich made the application crash.
 2. When the player added invalid input it became an infinite loop so I hade to make sure that if they added invalid input they were irritated back to that function.
@@ -410,6 +415,7 @@ The site was tested on the following devices:
 
 ## Credits
 
-Thanks for the feedback i got from my mentor Mo 
+Thanks for the feedback i got from my mentor Mo.
+Thanks to my Twitch community who tried the game and gave me feedback. 
 
 
