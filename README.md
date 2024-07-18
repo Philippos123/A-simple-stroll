@@ -246,12 +246,14 @@ The people the player meets aren’t static in the game. This makes it important
 
 # Testing 
 
-## PEP8 
+## Validation 
 A Simple Stroll passed the PEP8 checks with no errors, as shown in the image below. The game initially had a lot of PEP8 errors, which have been resolved now. 
 ![PEP8](images/PEP8.png)
 
 # Manual testing
 
+
+# User story testing
 ## Start Game 
 1. Start the game by entering your name. I used an isalpha function so the user can only use letters. If you use a number, the system will loop back.
 <img src="images/start game man.png" alt="A screenshot before you start the game">
@@ -338,6 +340,94 @@ If you pick man the pronunce will be he, if you pick women the pronunce will be 
 <h2>These steps works as expected.</h2>
     </details>
 
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 1. Start Game | start game with username | When the user starts the game, they have an option to choose a username. | If user use only letters they game progess to the Choose path | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/main stroll.png" alt="A screenshot of the main meny. ">
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 2. Choose path | Two diffrent paths | After you input a valid username you will get two paths to choose between. | Program will go the path the user pick. | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/choose path.png" alt="A screenshot of the start of the game "><br>
+
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 3. Death function | Death view | When the user die they will come to the Death function where they have an option to play again or leave. | Program will display 'y' for play again or 'n' for leave| Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/death.png" alt="A screenshot of the death function"><br>
+
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 4. Congratulation function | Congrat view |When the user survive, they will see the congrat function | Program will display 'y' for play again or 'n' for leave | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/congrat.png" alt="A screenshot of congrat function"><br>
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 5. Persons in the story| user input | If the user pick's the correct path, they will be able to create there own characters they meet in the game. | The pronunces changes depending on if the user picks a male of female they meet in the game  | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/he.png" alt="A screenshot if the user pick a male ."><br>
+    <img src="images/she.png" alt="A screenshot if the user pick a female."><br>
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 6. Forest path | Path  | When the user picks the forest path.| The user ends up at the right path they pick | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/forest path.png" alt="A screenshot of the forest path"><br>
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 7. City path | other path | When the user picks the city path. | The user ends up at the right path they pick | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/city path.png" alt="A screenshot of the city path"><br>
+    
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 8. Information | Give information about the game to the user |I started the game to see if I see the information | When the user starts the game, they are going to see information | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/Information.png" alt="A screenshot of the main menu and information"><br>
+
+</details><br>
+
+|User story|Feature|Test|Expected Result|Actual Result|
+|---|---|---|---|---|
+| 9. Ensure that if the user input invalid symbols it ittirate back or inform the user about it. | Ittirate | Give invalid input | When the user use invalid input they are going to ittirate back | Works as expected. |
+
+<details>
+    <summary>Screenshots</summary>
+    <img src="images/wrong input.png" alt="A screenshot of wrong input"><br>
+
+</details><br>
+
+
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
@@ -400,18 +490,6 @@ The site was tested on the following devices:
 1. I found a bug where i didnt define the "username" on the forest trail wich made the application crash.
 2. When the player added invalid input it became an infinite loop so I hade to make sure that if they added invalid input they were irritated back to that function.
 
-
-
-## Images 
-
-In this picture, the user has the power to create their own story by controlling who they will meet. Is it a girl or a man? Friend or foe?
-![Simpel_stroll](images/simpel_stroll.JPG)
-
-Here is another picture of the whole application. I tried to structure the text with lines and \n.
-![Another_picture_of_simpel_stroll](images/Skärmbild%20(97).png)
-
-## To the Game 
-Here is the link to the game <https://a-simple-stroll-c4fc7eb42776.herokuapp.com/>
 
 
 ## Credits
