@@ -118,12 +118,14 @@ If the player loses to the game, they will recive a "Welcome to the afterlife" a
 
 (5) For the program to give me feedback when I answer game questions correctly or incorrectly.
 
+(6) For the program to remember input the user gave. 
+
 #### As the site owner...
-(6) Ensure that the user understand what's happening in the story.
+(7) Ensure that the user understand what's happening in the story.
 
-(7) Ensure that all user actions are given feedback in the terminal so that users feel they know what to do next in the game.
+(8) Ensure that all user actions are given feedback in the terminal so that users feel they know what to do next in the game.
 
-(8) Ensure that if the user input invalid symbols it ittirate back or inform the user about it. 
+(9) Ensure that if the user input invalid symbols it ittirate back or inform the user about it. 
 
 ## Technical Design
 
@@ -163,7 +165,7 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/main stroll.png" alt="A screenshot of the main meny y/n feature">
-            <p> 1-5 </p>
+            <p> User story covered: 1-6 </p>
         </li>
         
 
@@ -180,7 +182,7 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/meet who stroll.png" alt="A screenshot of when the user is able to effect the story based on there preference. ">
-            <p> 1-5 </p>
+            <p> User story covered: 1-6</p>
         </li>
         
 </details><br>
@@ -193,7 +195,20 @@ The website has a single page with several features within the mock python termi
         </li>
         <li>
             <img src="images/val stroll.png" alt="A screenshot of when the user must make a choice of what to do.  ">
-            <p> 1-5 </p>
+            <p> User story covered: 1-6 </p>
+        </li>
+        
+</details><br>
+<details>
+    <summary>Activites in the Game </summary>
+    <p>This is what the user sees if the user add invalid input</p>
+    <ul>
+        <li>
+            <p>What are you going to do?</p>
+        </li>
+        <li>
+            <img src="images/wrong input.png" alt="A screenshot of when the user use invalid input">
+            <p> User story covered: 7-9 </p>
         </li>
         
 </details><br>
@@ -328,7 +343,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 
 |User story|Feature|Test|Expected Result|Actual Result|
 |---|---|---|---|---|
-| 8. Information | Give information about the game to the user |I started the game to see if I see the information | When the user starts the game, they are going to see information | Works as expected. |
+| 8. (SITE OWNER)Information | Give information about the game to the user |I started the game to see if I see the information | When the user starts the game, they are going to see information | Works as expected. |
 
 <details>
     <summary>Screenshots</summary>
@@ -338,7 +353,7 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
 
 |User story|Feature|Test|Expected Result|Actual Result|
 |---|---|---|---|---|
-| 9. Ensure that if the user input invalid symbols it ittirate back or inform the user about it. | Ittirate | Give invalid input | When the user use invalid input they are going to ittirate back | Works as expected. |
+| 9. (SITE OWNER)Ensure that if the user input invalid symbols it ittirate back or inform the user about it. | Ittirate | Give invalid input | When the user use invalid input they are going to ittirate back | Works as expected. |
 
 <details>
     <summary>Screenshots</summary>
